@@ -1,7 +1,63 @@
-
+/*     Assignment: Responsive Travel
+             Name: Kari Cook
+             Date: 6-30-2022
+            Class: CIS130W01   */
 body {
-  background: green;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(Lake_Taneycomo.jpg);
+  font-family: trebuchet;
+
+
 }
 h1 {
   font-size: 2em;
+  text-align: center;
+  background-size: cover;
+  background: transparent;
+  text-shadow: 1.5px 1.5px #30a0a4;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  border: 5px lightblue outset;
+}
+h2 {
+  font-size: 1em;
+  text-align: center;
+  }
+
+.box1 {
+  font-size: 1.5em;
+  background: cover;
+  text-align: center;
+  background-color: #bbe4d8;
+  background-size: contain;
+  margin-top: 50px;
+  border: #30a0a4 solid 4px;
+}
+
+.box2 {
+  font-size: 1.5em;
+  text-align: left;
+  padding-left: 5px;
+  background: cover;
+  background-color: #30a0a4;
+  background-size: cover;
+  margin-top: 50px;
+  border: #bbe4d8 solid 4px;
+}
+
+.box3 {
+  font-size: 1.5em;
+  background: cover;
+  text-align: left;
+  letter-spacing: 2px;
+  background-color: #bbe4d8;
+  background-size: contain;
+  margin-top: 50px;
+  border: #30a0a4 solid 4px;
+}
+
+table, th, td {
+  border: 3px green solid;
 }

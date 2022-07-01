@@ -1,15 +1,126 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
+  <!-- Assignment: Responsive Travel
+             Name: Kari Cook
+             Date: 6-30-2022
+            Class: CIS130W01
+            note: ALL Breakpoint styles are on 
+            responsiveStyles.css
+  -->
   <meta charset="utf-8">
-  <title>Responsive Travel</title>
+  <title>Travel Mo Simply</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsiveStyles.css" media="screen and (min-width: 576px)">
 </head>
- <link rel="stylesheet" href="styles.css">
 <body>
 <header>
 </header>
+  <div class="top">
+<h1> TRAVEL MO SIMPLY </h1>
+<h2> -Let us do the work so you can play, the Travel MO Simply way!</h2>
+  </div>
+      <div class="box1">
+        <p> With Travel Mo Simply you can forget about the work involved
+           with planning your next vacation. Our goal is to make
+           planning a vacation simple and truly enjoyable.
+           With just a few clicks you can be on your way to vacay!</p>
+           <img src="fog.png" alt="fog">
+      </div>
 
-<h1> Responsive Travel </h1>
+      <div class="table">
+      <table>
+        <tr>
+          <th colspan="2">Five Easy Steps until Vacation Time</th>
+        </tr>
+        <tr>
+          <td>First</td>
+          <td>Fill out required form info </td>
+        </tr>
+          <tr>
+            <td>Second</td>
+            <td>Choose package and add-ons</td>
+         </tr>
+         <tr>
+           <td>Third</td>
+           <td>Submit required form info</td>
+         </tr>
+         <tr>
+           <td>Fourth</td>
+           <td>Travel Mo Simply will email all details about your vacation
+                and a link to process payment privately and securely.</td>
+         </tr>
+         <tr>
+           <td>Last</td>
+           <td>Get ready to enjoy your vacation without the stress.</td>
+         </tr>
+         </table>
+      </div>
 
+      <div class="box2">
+       <h5>Summer Packages- Lake Taneycomo:</h5>
+         <ul style="list-style-type:none">
+           <li>Rock-Away Beach- Fishing Tour Package<img src="fishrockaway.png" alt="fish"></li>
+           <li>Float-Away- River Float Tour Package<img src="taneycomo.png" alt="float"></li>
+          <li>Packages include: 3-day Tour and Hotel Paid in full. Discounts for Flight Ticket(s), Rental Car, Fuel, and Local Dining</li>
+           <li>Add-ons- Flight ticket(s) Roundtrip, Rental car from airport, and Local Dining (additional fees will be charged)</li>
+         </ul>
+     </div>
+
+
+      <div class="form">
+       <form>
+       <h4>Vacation Registration Form</h4>
+         <fieldset>
+           <legend>
+             Contact Information:
+           </legend>
+           <label id="contactinfo" for="fname">
+            First Name:
+             <input type="text" id="fname" name="fname"  required placeholder="First Name" />
+           </label><br>
+           <label for="lname">
+            Last Name:
+             <input type="text" id="lname" name="lname" required placeholder="Last Name" /><br>
+           </label>
+           <label for="email">
+            Email Add:
+             <input class="email" type="email" id="email" name="email" required placeholder="Email" />
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>
+           Package Details:
+         </legend>
+         <label for="package">Choose Package:</label>
+           <select id="package" name="package">
+             <option value="Floatawayfloat">Float-Away-Floating</option>
+             <option value="RockawayFish">Rock-Away-Fishing</option>
+          </select>
+        </fieldset>
+    <fieldset>
+      <legend>
+      Choose Add-ons for additional fees:
+      </legend>
+       <input type="checkbox" id="Flight" name="Flight" value="Flight">
+         <label for="Flight">Flight Tickets</label>
+       <input type="checkbox" id="car" name="car" value="car">
+         <label for="car">Rental Car</label>
+       <input type="checkbox" id="dine" name="dine" value="dine">
+         <label for="dine">Local Dining</label>
+    </fieldset>
+    <fieldset>
+        <legend>
+        Additional Info:
+        </legend>
+        <textarea name="additional info" rows="8" cols="50" placeholder="Type any additional info"></textarea>
+      </fieldset>
+         <input class="submit" type="submit" name="submit" value="Submit" />
+      </form>
+    </div>
+    <div class="maxchange">
+      <h3>Thank you for choosing Travel Mo Simply!</h3>
+    </div>
 
 </body>

@@ -1,0 +1,31 @@
+/* Assignment: Responsive Travel
+        Class: CIS130W01
+         Name: Kari Cook
+         Date: 06-30-2022 */
+
+
+.box1 {
+  width: 45%;
+}
+
+img {
+    max-width: 85%;
+}
+
+.table {
+  margin: none;
+  width: 45%;
+  float: right;
+}
+
+.box2 {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 998px) {
+
+}

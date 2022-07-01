@@ -1,16 +1,17 @@
 /*     Assignment: Responsive Travel
              Name: Kari Cook
              Date: 6-30-2022
-            Class: CIS130W01   */
+            Class: CIS130W01
+            NOTE: All Breakpoint styles
+            are located on responsiveStyles.css */
 body {
   background-size: cover;
   background-attachment: fixed;
   background-size: cover;
   background-image: url(Lake_Taneycomo.jpg);
   font-family: trebuchet;
-
-
 }
+
 h1 {
   font-size: 2em;
   text-align: center;
@@ -21,6 +22,7 @@ h1 {
   padding-bottom: 33px;
   border: 5px lightblue outset;
 }
+
 h2 {
   font-size: 1em;
   text-align: center;
@@ -31,7 +33,6 @@ h2 {
   background: cover;
   text-align: center;
   background-color: #bbe4d8;
-  background-size: contain;
   margin-top: 50px;
   border: #30a0a4 solid 4px;
 }
@@ -47,17 +48,38 @@ h2 {
   border: #bbe4d8 solid 4px;
 }
 
-.box3 {
+.table {
   font-size: 1.5em;
-  background: cover;
-  text-align: left;
   letter-spacing: 2px;
   background-color: #bbe4d8;
-  background-size: contain;
+  background-size: cover;
   margin-top: 50px;
   border: #30a0a4 solid 4px;
 }
 
 table, th, td {
-  border: 3px green solid;
+  border: 3px #30a0a4 solid;
+  text-align: left;
+}
+
+.form {
+  background-image: url(cloudsunbg.png);
+  background-size: cover;
+  text-align: left;
+  margin: auto;
+  width: 95%;
+  border: 2px #30a0a4 ridge;
+  margin: 7px;
+}
+
+h4 {
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 1.5px 1.5px #30a0a4;
+}
+
+.submit {
+  width: auto;
+  border: 2px #30a0a4 solid;
+  font-size: 1.5em;
 }
